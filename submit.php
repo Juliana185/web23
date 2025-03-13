@@ -1,7 +1,10 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 $servername = "sql203.infinityfree.com"; // Вставь сюда "MySQL Hostname"
 $username = "if0_38513067"; // Вставь сюда "Username"
-$password = "aAY-YZi-vg6-He7"; // Вставь сюда "Password" который использовал при создании аккаунта
+$password = "Q2GwcClvL1Mlf3"; // Вставь сюда "Password" который использовал при создании аккаунта
 $dbname = "if0_38513067_developers_db"; // Вставь сюда имя базы
 
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -42,4 +45,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 $conn->close();
 ?>
-ы
